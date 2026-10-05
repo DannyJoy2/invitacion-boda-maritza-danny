@@ -1,0 +1,106 @@
+.venue-location{margin-top:1.3rem}.venue-map{display:block;width:100%;height:250px;border:1px solid #b5bca388;border-radius:3px;background:#e7e6d8}.event .map-note{font-size:12px;color:#6b725b;line-height:1.5;margin:.7rem 0 1rem}.visible-qr{display:flex;align-items:center;gap:1.1rem;border-top:1px solid #a5af9366;padding-top:1.3rem}.visible-qr img{width:136px;height:136px;flex:0 0 136px;display:block;background:#fff;border:1px solid #dcdccd;border-radius:3px}.visible-qr h4{font:500 22px/1.15 'Cormorant Garamond',Georgia,serif;color:#405130;margin:0 0 .6rem}.event .visible-qr p{font-size:14px;color:#626e52;margin:0;line-height:1.55}.guest-heading{margin-bottom:2rem}.guest-heading h2{margin:0}.guest-heading p{color:#626e52;font-size:16px;margin:0}.guest-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;align-items:stretch}.guest-card{background:#fffdf8;border:1px solid #c5b99977;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 10px 30px #514f2510}.guest-card>img{display:block;width:100%;height:220px;object-fit:cover}.guest-card-content{padding:1.8rem;flex:1;display:flex;flex-direction:column;align-items:flex-start}.guest-kicker{font-size:11px;letter-spacing:.16em;color:#7b7856;margin-bottom:1rem}.guest-card h3{font:400 2.35rem/1.05 'Cormorant Garamond',Georgia,serif;color:#35442c;margin:0 0 1.3rem}.guest-card p{font-size:16px;line-height:1.75;color:#616c51;margin-bottom:1rem}.guest-card strong{font-weight:500;color:#43522f}.guest-tag{display:block;border-top:1px solid #b7b49266;padding-top:1rem;margin-top:auto;width:100%;font-size:13px;color:#6b714f}.reserved-colors{border-top:1px solid #b7b49266;padding-top:1rem;margin-top:auto;width:100%;display:flex;flex-wrap:wrap;gap:.8rem 1rem}.reserved-colors>span{display:flex;align-items:center;gap:.5rem;color:#6b714f;font-size:13px}.reserved-colors i{width:19px;height:19px;border:1px solid #bcb7a2;border-radius:50%;display:inline-block}.white-swatch{background:#fff}.beige-swatch{background:#d2bd94}
+@media(max-width:1100px){.event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.event.date-card{grid-column:1/-1;display:grid;grid-template-columns:210px 1fr;column-gap:1.5rem;padding:0 1.5rem 0 0!important;align-items:start}.event.date-card .event-photo{grid-column:1;grid-row:1/6;width:210px;height:100%;min-height:255px;margin:0}.event.date-card .event-index{display:none}.event.date-card h3{margin:1.5rem 0 .8rem}.event.date-card p,.event.date-card a{grid-column:2;margin-bottom:.5rem}.event.date-card a{justify-self:start;margin-bottom:1.5rem}.visible-qr{gap:.8rem}.visible-qr img{width:116px;height:116px;flex-basis:116px}.guest-cards{gap:1rem}.guest-card-content{padding:1.3rem}.guest-card>img{height:180px}.guest-card h3{font-size:2rem}.guest-heading{display:block}.guest-heading h2{margin-bottom:1rem}}
+@media(max-width:750px){.guest-cards{grid-template-columns:1fr;gap:1.5rem}.guest-card{display:grid;grid-template-columns:35% 65%}.guest-card>img{height:100%;min-height:300px}.guest-card-content{padding:1.5rem}.guest-card h3{font-size:2.25rem}}
+@media(max-width:650px){.event-grid{grid-template-columns:1fr}.event.date-card{display:block;padding:0 1.5rem 1.8rem!important}.event.date-card .event-photo{width:calc(100% + 3rem);height:220px;min-height:0;margin:0 -1.5rem 1.5rem}.event.date-card .event-index{display:flex}.event.date-card h3{margin:1.8rem 0 1rem}.event.date-card p{margin-bottom:1rem}.event.date-card a{margin-bottom:0}.venue-map{height:260px}.visible-qr img{width:132px;height:132px;flex-basis:132px}.guest-card{display:flex}.guest-card>img{height:230px;min-height:0}.guest-card-content{padding:1.5rem}.guest-heading h2{font-size:3rem}.guest-heading p br{display:none}.visible-qr{gap:1rem}.visible-qr h4{font-size:21px}}
+@media(max-width:360px){.visible-qr{flex-direction:column;text-align:center}.visible-qr img{width:150px;height:150px;flex-basis:150px}}
+
+/* The two venues now share the entire event row. */
+.event-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}.event .event-photo{height:240px}.event .event-index{top:205px}.direct-audio{gap:1rem;padding:7px 16px;max-width:calc(100vw - 24px)}.direct-audio button{min-height:40px;gap:.6rem;font-size:14px;min-width:103px}.audio-volume{display:flex;align-items:center;gap:.6rem;color:#ead8b7;font-size:12px}.audio-volume input{width:85px;height:32px;accent-color:#ead8b7;cursor:pointer;margin:0}.direct-audio #music-icon{font-size:17px;width:20px;text-align:center}.direct-audio button:focus-visible,.audio-volume input:focus-visible{outline:2px solid #ead8b7;outline-offset:4px}
+@media(max-width:650px){.event-grid{grid-template-columns:1fr;gap:1.5rem}.event .event-photo{height:220px}.event .event-index{top:185px}.direct-audio{right:12px;bottom:12px;gap:.7rem;padding:6px 12px}.direct-audio button{min-width:94px;font-size:13px}.audio-volume input{width:70px}.audio-volume{gap:.4rem;font-size:11px}}
+@media(max-width:340px){.audio-volume input{width:56px}.direct-audio{gap:.4rem}.direct-audio button{min-width:88px}}
+.guest-rsvp-button{display:inline-flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:auto;padding:.9rem 1.1rem;min-height:50px;width:100%;background:#485433;color:#fff8e9;border:1px solid #485433;text-decoration:none;font-size:14px;font-weight:500;transition:background .2s,transform .2s}.guest-rsvp-button:hover{background:#5c6942;transform:translateY(-2px)}.guest-rsvp-button:focus-visible{outline:2px solid #99855c;outline-offset:3px}
+.event,.guest-card{transition:transform .28s ease,box-shadow .28s ease;transform-origin:center}.event:hover,.guest-card:hover,.event:focus-within,.guest-card:focus-within{transform:scale(1.012);box-shadow:0 18px 38px #1e281733}.event:active,.guest-card:active{transform:scale(.995)}
+@media(max-width:650px){.event:hover,.guest-card:hover,.event:focus-within,.guest-card:focus-within{transform:scale(1.006)}}
+@media(prefers-reduced-motion:reduce){.event,.guest-card{transition:none}}
+.confirmation-photo{height:220px;overflow:hidden;position:relative;background:#ece5d8}.confirmation-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top;transform:scale(1.45);transform-origin:center top}
+@media(max-width:650px){.confirmation-photo{height:230px}.confirmation-photo img{transform:scale(1.35)}}
+
+/* Horizontal detail cards: generous text column, image panel on the left. */
+.guest-cards{grid-template-columns:minmax(0,1fr);gap:1.25rem}
+.guest-card{display:grid;grid-template-columns:minmax(230px,30%) minmax(0,1fr);min-height:290px;align-items:stretch}
+.guest-card>img,.guest-card>.confirmation-photo{width:100%;height:100%;min-height:290px;object-fit:cover}
+.guest-card>.confirmation-photo img{height:100%;min-height:290px;transform:scale(1.3);transform-origin:center top}
+.guest-card-content{padding:clamp(1.3rem,3vw,2.5rem)}
+.guest-card h3{font-size:clamp(2rem,3.1vw,2.8rem);margin-bottom:.85rem}
+.guest-card-content>p{max-width:740px}
+.guest-rsvp-button{width:auto;min-width:230px;align-self:flex-start;margin-top:.25rem}
+.guest-card:nth-child(even){grid-template-columns:minmax(0,1fr) minmax(230px,30%)}
+.guest-card:nth-child(even)>img,.guest-card:nth-child(even)>.confirmation-photo{grid-column:2;grid-row:1}
+.guest-card:nth-child(even)>.guest-card-content{grid-column:1;grid-row:1}
+@media(max-width:650px){.guest-cards{grid-template-columns:1fr;gap:1.25rem}.guest-card{display:flex;flex-direction:column;min-height:0}.guest-card>img,.guest-card>.confirmation-photo{height:210px;min-height:210px}.guest-card>.confirmation-photo img{min-height:210px;transform:scale(1.35)}.guest-card-content{padding:1.5rem}.guest-rsvp-button{width:100%;align-self:stretch}.guest-card h3{font-size:2.2rem}}
+
+/* Make the wedding date as easy to spot as it is to remember. */
+.date-lockup{width:min(100%,510px);max-width:510px;margin:0 auto 1.8rem;color:#ead8b7;text-align:center}
+.date-month{display:block;text-align:center;font-size:15px;letter-spacing:.22em;margin-bottom:.25rem;color:#ead8b7}
+.date-main{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(.65rem,2vw,1.5rem)}
+.date-main>span{border-block:1px solid #ead8b7;padding:.3rem .2rem;text-align:center;font-size:clamp(13px,1.6vw,17px);letter-spacing:.12em;white-space:nowrap;color:#ead8b7}
+.date-main>strong{font:500 clamp(5.6rem,9vw,7.5rem)/.88 'Cormorant Garamond',Georgia,serif;color:#ead8b7;letter-spacing:-.04em}
+.guest-card:nth-child(2)>img{height:100%;min-height:290px;object-fit:cover;background:#eee7d8}
+.rsvp-embedded{background:#eee7d8;color:#38432b}
+.rsvp-embedded .section-label{color:#696244}
+.rsvp-embedded .section-heading{margin-bottom:1.8rem}
+.rsvp-embedded .section-heading h2 em{color:#736445}
+.rsvp-embedded .section-heading p{max-width:400px;color:#626e52;font-size:16px}
+.rsvp-form-shell{max-width:900px;margin:0 auto;overflow:hidden;border:1px solid #c5b99977;border-radius:4px;background:#fff;box-shadow:0 12px 32px #514f2512}
+.rsvp-form-shell iframe{display:block;width:100%;height:1150px;border:0;background:#fff}
+.rsvp-fallback{text-align:center;margin:1.2rem auto 0;color:#68704f;font-size:14px}
+.rsvp-fallback a{text-decoration:underline;text-underline-offset:3px;color:#485433}
+@media(max-width:650px){.date-lockup{margin:0 auto 1.6rem;width:min(100%,430px)}.date-main{gap:.55rem}.date-main>strong{font-size:5.3rem}.date-main>span{font-size:11px;letter-spacing:.08em}.guest-card:nth-child(2)>img{height:210px;min-height:210px}.rsvp-embedded{padding-left:6%;padding-right:6%}.rsvp-form-shell iframe{height:1450px}}
+
+/* Address labels and arrival guidance for the two venue cards. */
+.venue-address{font-size:15px!important;line-height:1.55;color:#59634d!important;margin:.1rem 0 .8rem!important}
+.venue-address strong{color:#414d32;font-weight:600}
+.arrival-note{font-size:14px!important;line-height:1.55;color:#6b714f!important;margin:0 0 1rem!important;padding:.7rem .8rem;border-left:2px solid #b7a36d;background:#ead8b744}
+.event .venue-map{margin-top:1rem}
+.rsvp-form-shell{padding:.75rem;background:#485433;border:1px solid #ad9b70;box-shadow:0 14px 35px #30382120}
+.rsvp-frame-heading{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.25rem .45rem .75rem;color:#f1e5c9;font-size:11px;letter-spacing:.16em}
+.rsvp-frame-heading span:nth-child(2){font:24px Georgia,serif;color:#ead8b7}
+.rsvp-form-shell iframe{border-radius:2px}
+@media(max-width:650px){.rsvp-form-shell{padding:.45rem}.rsvp-frame-heading{font-size:10px;letter-spacing:.1em}}
+
+/* Real couple photographs are landscape; keep faces and scenery in frame. */
+.photos .photo-open{aspect-ratio:4/3}
+.photos .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1050px;margin-left:auto;margin-right:auto}
+.photos .photo-open{aspect-ratio:3/4}
+@media(max-width:650px){.photos .photo-grid{grid-template-columns:1fr}.photos .photo-slot:nth-child(2){padding-top:0}}
+
+/* Show the reception tables clearly in the confirmation card. */
+.guest-card>.confirmation-photo img{object-position:center 62%;transform:none!important;transform-origin:center}
+@media(max-width:650px){.guest-card>.confirmation-photo img{object-position:center 62%;transform:none!important}}
+.guest-card:first-child{min-height:0;align-items:center}
+.guest-card:first-child>.confirmation-photo{height:250px;min-height:250px;align-self:center}
+.guest-card:first-child>.confirmation-photo img{height:100%;min-height:0;transform:none!important;object-position:center 62%}
+.guest-card:first-child .guest-card-content{padding:1.25rem clamp(1.25rem,2.4vw,2rem)}
+.guest-card:first-child .guest-kicker{margin-bottom:.65rem}
+.guest-card:first-child h3{font-size:clamp(1.85rem,2.5vw,2.35rem);margin-bottom:.65rem}
+.guest-card:first-child p{font-size:15px;line-height:1.55;margin-bottom:.65rem}
+.guest-card:first-child .guest-rsvp-button{margin-top:.2rem}
+@media(max-width:650px){.guest-card:first-child>.confirmation-photo{height:190px;min-height:190px;align-self:stretch}.guest-card:first-child .guest-card-content{padding:1.25rem 1.4rem}.guest-card:first-child h3{font-size:2rem}}
+
+/* Six-photo gallery: three balanced columns, adapting to tablet and mobile. */
+.photos .photo-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1360px;margin-inline:auto;gap:clamp(1rem,1.8vw,1.6rem)}
+.photos .photo-slot,.photos .photo-slot:nth-child(2){padding-top:0}
+.photos .photo-open{aspect-ratio:4/5;max-height:none}
+.photos .photo-open--boat>img{object-position:30% center}
+.photos .photo-slot figcaption{min-height:3.2rem}
+@media(max-width:950px){.photos .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:900px;gap:1.3rem}}
+@media(max-width:650px){.photos .photo-grid{grid-template-columns:1fr;max-width:440px;gap:1.25rem}.photos .photo-open{aspect-ratio:4/5}.photos .photo-slot figcaption{min-height:0}}
+
+/* Gentle scroll reveals for sections, venue and guest cards, and photographs. */
+.has-scroll-motion .scroll-reveal{opacity:0;translate:0 22px;transition:opacity .7s ease,translate .7s cubic-bezier(.2,.7,.2,1)}
+.has-scroll-motion .scroll-reveal.is-revealed{opacity:1;translate:0 0}
+.has-scroll-motion .scroll-reveal-item{transition-delay:calc(var(--reveal-order,0)*90ms)}
+@media(prefers-reduced-motion:reduce){.has-scroll-motion .scroll-reveal{opacity:1;translate:none;transition:none}}
+
+/* Compact closing note and the added guest guidance card. */
+.closing{min-height:0;padding:clamp(2.2rem,5vw,3.6rem) 6%;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden}
+.closing-copy{position:relative;z-index:1;margin:0;color:#f4eddd;font:italic 500 clamp(1.55rem,3.4vw,2.5rem)/1.2 'Cormorant Garamond',Georgia,serif}
+.closing-botanical{width:clamp(150px,23vw,270px);height:auto;opacity:.17;right:-4rem;top:50%;transform:translateY(-50%)}
+.guest-card--children .guest-card-art{grid-column:1;grid-row:1;min-height:290px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;overflow:hidden;color:#69764e;background:radial-gradient(ellipse at 50% 48%,#f7f0e3 0,#eee5d1 65%,#e8ddc5 100%);border-right:1px solid #c5b99977;position:relative}
+.guest-card--children .guest-card-art:before,.guest-card--children .guest-card-art:after{content:"";position:absolute;width:82px;height:140px;border:1px solid #7a825d55;border-radius:100% 0 100% 0;transform:rotate(-32deg);left:8%;top:10%;opacity:.65}
+.guest-card--children .guest-card-art:after{left:auto;right:8%;top:auto;bottom:6%;transform:rotate(148deg)}
+.guest-card--children .guest-card-art svg{width:min(56%,180px);height:auto;position:relative;z-index:1}
+.guest-card--children .guest-card-art span{font-size:9px;letter-spacing:.16em;color:#727957}
+.guest-card:nth-child(even).guest-card--children .guest-card-art{grid-column:2;border-right:0;border-left:1px solid #c5b99977}
+@media(max-width:650px){.closing{padding:2.25rem 8%}.closing-botanical{width:165px;right:-3rem}.guest-card--children .guest-card-art{min-height:190px;border:0;border-bottom:1px solid #c5b99977}.guest-card:nth-child(even).guest-card--children .guest-card-art{grid-column:auto;border:0;border-bottom:1px solid #c5b99977}}
+@media(max-width:650px){.hero{min-height:100svh}}
